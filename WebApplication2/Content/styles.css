@@ -1,0 +1,61 @@
+﻿@import (less) "bootstrap.css";
+@import (less) "bootstrap-theme.css";
+
+/*
+    
+    Don't go overboard, mixing in the bootstrap class is probably enough, 
+    but here it is if you need it: http://lesscss.org/features/
+    
+    */
+
+.packages {
+    .container-fluid;
+}
+
+.packageIntros {
+    .row;
+    .col-xs-12;
+}
+
+.packageIntrosTitle {
+    .col-xs-4;
+}
+
+.packageIntro {
+    .col-xs-2;
+}
+
+.videoTours {
+    .row;
+    .col-xs-12;
+}
+
+.videoToursTitle {
+    .col-xs-4;
+}
+
+.videoTour {
+    .col-xs-2;
+}
+
+.videoTourThumbNail { 
+    width:100%;
+}
+
+.pricingTable {
+    .row;
+    .col-xs-12;
+}
+
+.featureColumn {
+    .col-xs-4;
+}
+
+.packageColumn {
+    .col-xs-2;
+}
+
+.actionButton { 
+    .btn;
+    .btn-success;
+}
