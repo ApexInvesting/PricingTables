@@ -1,61 +1,103 @@
 ﻿@import (less) "bootstrap.css";
 @import (less) "bootstrap-theme.css";
 
-/*
-    
-    Don't go overboard, mixing in the bootstrap class is probably enough, 
-    but here it is if you need it: http://lesscss.org/features/
-    
-    */
-
-.packages {
-    .container-fluid;
+.list-group-item.title {
+	color: #777;
+	background-color: #eee;
+	font-weight: 600;
 }
 
-.packageIntros {
-    .row;
-    .col-xs-12;
+.tradeableItemsLabel {
 }
 
-.packageIntrosTitle {
-    .col-xs-4;
+
+.videoTourTitle {
 }
 
-.packageIntro {
-    .col-xs-2;
+
+
+.videoTourThumbNail {
+	height: 5em;
 }
 
-.videoTours {
-    .row;
-    .col-xs-12;
+.grid-low-margin .col-xs-3 {
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
-.videoToursTitle {
-    .col-xs-4;
+.lead {
+	height: 5em;
 }
 
-.videoTour {
-    .col-xs-2;
+.package {
+	text-align: center;
 }
 
-.videoTourThumbNail { 
-    width:100%;
+	.package .panel {
+		transition: all 0.25s;
+		border-color: #2b035c;
+	}
+
+	.package .panel-heading h3 {
+		height: 2em;
+	}
+
+	.package .panel-heading {
+		background-color: #360573;
+		color: white;
+	}
+
+	.package .call-to-action {
+		margin-bottom: 1em;
+	}
+
+	.package .panel:hover {
+		box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.5);
+		transform: scale(1.04) translateY(-5px);
+		z-index: 1;
+		border-bottom: 0 none;
+	}
+
+		.package .panel:hover .panel-heading {
+			/*Slightly brighter to make it seem closer*/
+			background-color: #40107c;
+		}
+
+		.package .panel:hover .call-to-action {
+			background-color: #6b3aa9;
+		}
+
+.call-to-action {
+	background-color: #360573;
+	color: #fff;
+	background-color: #360573;
 }
 
-.pricingTable {
-    .row;
-    .col-xs-12;
+	.call-to-action:focus, .call-to-action:hover {
+		background-color: #8251bf !important;
+		color: #fff !important;
+	}
+
+.compare {
+	text-align: center;
 }
 
-.featureColumn {
-    .col-xs-4;
+	.compare .panel-heading {
+		/*background-color: #360573;
+		color: white;*/
+	}
+
+.compareHeader {
+	width: 18%;
+	text-align: center;
 }
 
-.packageColumn {
-    .col-xs-2;
+.compare .glyphicon-ok-sign {
+	color: green;
+	font-size: 1.5em;
 }
 
-.actionButton { 
-    .btn;
-    .btn-success;
+.compare .glyphicon-remove-sign {
+	color: red;
+	font-size: 1.5em;
 }

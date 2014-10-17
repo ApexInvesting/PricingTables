@@ -57,7 +57,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Default.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\video.gif" />
     <Content Include="Scripts\bootstrap.js" />
@@ -70,6 +70,23 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\styles.css" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\html5lightbox\html5boxplayer.swf" />
+    <Content Include="Scripts\html5lightbox\html5lightbox.js" />
+    <Content Include="Scripts\html5lightbox\skins\default\html5boxplayer_fullscreen.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\html5boxplayer_hd.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\html5boxplayer_playpause.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\html5boxplayer_playvideo.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\html5boxplayer_volume.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-close.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-fullscreen-close.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-loading.gif" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-next.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-pause.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-play.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-playvideo.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\lightbox-prev.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\nav-arrows-next.png" />
+    <Content Include="Scripts\html5lightbox\skins\default\nav-arrows-prev.png" />
     <Content Include="Scripts\jquery-1.9.0.js" />
     <Content Include="Scripts\jquery-1.9.0.min.js" />
     <Content Include="Scripts\less-1.5.1.js" />
@@ -78,12 +95,12 @@
     <Content Include="Scripts\jquery-1.9.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
